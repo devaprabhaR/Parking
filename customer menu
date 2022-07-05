@@ -1,0 +1,30 @@
+#function for displaying customer menu
+def c_menu():
+	print(''*50,'|','-'*50,'|')
+	a='OPERATIONS'
+	aa=a.centre(50)
+	print(''*50,'|',aa,'|')
+	b='FOR CUSTOMER'
+	bb=b.centre(50)
+	print(''*50,'|',bb,'|')
+	print(''*50,'|','-'*50,'|')
+	c='1.Book a slot'
+	cc=c.centre(50)
+	print(''*50,'|',cc,'|')
+	d='2.Cancel Booking'
+	dd=d.centre(50)
+	print(''*50,'|',dd,'|')
+	e='3.Update Record'
+	ee=e.centre(50)
+	print(''*50,'|',ee,'|')
+	f='4.Delete Account'
+	ff=f.centre(50)
+	print(''*50,'|',ff,'|')
+	g='5.Payment'
+	gg=g.centre(50)
+	print(''*50,'|',gg,'|')
+	h='6.Exit'
+	hh=h.centre(50)
+	print(''*50,'|',hh,'|')
+	print(''*50,'|','-'*50,'|')
+	print()
